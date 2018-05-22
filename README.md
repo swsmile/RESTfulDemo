@@ -29,7 +29,7 @@ Visit [http://localhost:8080/Restful/user/1](http://localhost:8080/Restful/user/
 
 ## Update an employee:
 
-Use the http verb ```PUT``` to update by ID to visit [http://localhost:8080/Restful/user/1](http://localhost:8080/Restful/user/1) and with the request body as followed:
+Visit http://localhost:8080/Restful/user/1 by using the http verb ```PUT``` to update by ID with the following request body:
 
 ```
 {  
@@ -44,10 +44,10 @@ Use the http verb ```PUT``` to update by ID to visit [http://localhost:8080/Rest
 Note: you can use `Postman` to to send a `PUT` request by specifying the HTTP method as `PUT` (remember to set the request header "content-type" as "application/json").
 
 ## Delete an employee.
-Use the http verb ```DELETE``` to delete by ID to visit [http://localhost:8080/Restful/user/1](http://localhost:8080/Restful/user/1).
+ Visit [http://localhost:8080/Restful/user/1](http://localhost:8080/Restful/user/1) by using the http verb ```DELETE``` to delete by ID.
 
 ## Create an new employee
-Using the http verb ```POST``` to create a new one employee to visit [http://localhost:8080/Restful/user/1](http://localhost:8080/Restful/user/1) with http header ```Content-Type = application/json``` and the following body:
+Visit http://localhost:8080/Restful/user/5 by using the http verb ```POST``` to create a new one employee with HTTP header ```Content-Type = application/json``` and the following body:
 
  ```
  {  
